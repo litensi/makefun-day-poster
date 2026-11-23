@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The World · 23 November 2026</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; background: #f6efdf; color: #191713; }
+.page { width: 1024px; height: 1024px; padding: 34px 48px 30px; display: flex; flex-direction: column; }
+header { text-align: center; border-top: 8px solid; border-bottom: 5px solid; padding: 4px 0 12px; }
+h1, h2, p { margin: 0; }
+h1 { font: 900 137px/.91 Georgia, serif; letter-spacing: -.065em; }
+.date, .tag, footer { font-family: Arial, sans-serif; font-weight: 800; }
+.date { font-size: 26px; letter-spacing: .17em; margin-top: 8px; }
+.lead { display: grid; grid-template-columns: 1fr 175px; align-items: center; padding: 16px 0; border-bottom: 5px solid; }
+.tag { font-size: 22px; letter-spacing: .10em; }
+.lead .tag { color: #a72a24; }
+h2 { font: bold 39px/.99 Georgia, serif; letter-spacing: -.04em; }
+.lead h2 { font-size: 66px; margin: 5px 0; }
+.summary { font: 27px/1.08 Arial, sans-serif; margin-top: 6px; }
+.lead .summary { font-size: 28px; }
+svg { width: 55px; height: 55px; fill: none; stroke: currentColor; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.lead svg { width: 132px; height: 132px; justify-self: center; }
+.grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas: "europe asia" "europe south" "latam tech";
+}
+.grid article { padding: 10px 0 11px 20px; border-bottom: 4px solid; }
+.grid .europe, .grid .latam { padding-left: 0; padding-right: 20px; border-right: 4px solid; }
+.europe { grid-area: europe; }
+.latam { grid-area: latam; }
+.asia { grid-area: asia; }
+.south { grid-area: south; }
+.tech { grid-area: tech; }
+.slug { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+.slug svg { width: 42px; height: 42px; }
+.follow { font-size: 31px; margin-top: 12px; }
+footer { display: flex; justify-content: space-between; align-items: baseline; font-size: 20px; padding-top: 10px; }
+.ticks { display: flex; gap: 12px; }
+.ticks span { border-top: 4px solid; padding-top: 3px; }
+</style>
+</head>
+<body>
+<main class="page">
+<header><h1>THE WORLD</h1><p class="date">MONDAY · 23 NOVEMBER 2026</p></header>
+<article class="lead">
+  <div><p class="tag">CLIMATE</p><h2>COP31 ends without a deal</h2><p class="summary">Deep divisions over fossil fuels block a major agreement.</p></div>
+  <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="28" cy="29" r="23"/><ellipse cx="28" cy="29" rx="11" ry="23"/><path d="M6 22h44M6 36h33"/><path fill="#f6efdf" d="M37 41c6-8 14-4 21-7 2 12-3 22-12 21-7-1-11-7-9-14Z"/><path stroke="#a72a24" d="M32 59c5-8 11-10 17-13"/></svg>
+</article>
+<section class="grid" aria-label="World news">
+  <article class="europe">
+    <div class="slug"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M5 53h54M10 53V32l13-10 10 11 9-6 12 9v17M19 53l6-11 11 11M39 10l-6 9m15-4-4 8M24 9l3 8"/></svg><p class="tag">EUROPE</p></div>
+    <h2>Boy, 7, rescued in Ukraine</h2><p class="summary">Pulled alive from rubble hours after a Russian strike.</p>
+    <h2 class="follow">War reaches NATO territory</h2><p class="summary">A Russia-bound ship is attacked in the Gulf of Finland.</p>
+    <h2 class="follow">Belgian airports to shut</h2><p class="summary">Anti-austerity strike halts flights.</p>
+  </article>
+  <article class="latam">
+    <div class="slug"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 7c8 7 15 8 22 9v13c0 14-10 24-22 29C20 53 10 43 10 29V16c7-1 14-2 22-9Z"/><path d="m22 32 7 7 13-15"/></svg><p class="tag">LATIN AMERICA</p></div>
+    <h2>Mexico captures cartel chief</h2><p class="summary">Army firefight leaves 11 dead.</p>
+  </article>
+  <article class="asia">
+    <div class="slug"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 55V35l15-9v9l14-9v9l13-6v26ZM46 31l2-19h7l3 43H8M16 44h5m8 0h5m8 0h5"/><path d="M20 18c-4-5 2-7 2-12 6 6 8 10 4 15"/></svg><p class="tag">ASIA</p></div>
+    <h2>Indonesia factory fire</h2><p class="summary">3 killed, dozens missing. Crews remove 24 body bags.</p>
+  </article>
+  <article class="south">
+    <div class="slug"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="m9 26 23-10 15-9v38l-15-9-23-3Zm7 8 6 18h10l-5-17m26-16 6-4m-6 14h8m-8 10 6 4"/></svg><p class="tag">SOUTH ASIA</p></div>
+    <h2>Deadly Bangladesh protests</h2><p class="summary">Unrest over the exiled former leader.</p>
+  </article>
+  <article class="tech">
+    <div class="slug"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="15" y="15" width="34" height="34" rx="3"/><path d="M23 8v7m9-7v7m9-7v7M23 49v7m9-7v7m9-7v7M8 23h7m-7 9h7m-7 9h7m34-18h7m-7 9h7m-7 9h7M22 37l8-11 6 8 6-5"/></svg><p class="tag">TECH</p></div>
+    <h2>AI boom stirs crash fears</h2><p class="summary">San Francisco rides the boom. South Korea’s education minister quits over AI cheating rules.</p>
+  </article>
+</section>
+<footer><span>A day in one page · 23 Nov 2026</span><div class="ticks" aria-label="Regions covered"><span>EUROPE</span><span>LAT AM</span><span>ASIA</span><span>S ASIA</span></div></footer>
+</main>
+</body>
+</html>
