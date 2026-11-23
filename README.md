@@ -6,6 +6,12 @@
 
 A single front-page image summing up the world's news of Monday 23 November 2026.
 
+## The image
+
+> **THE WORLD**
+>
+> MONDAY · 23 NOVEMBER 2026
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=j0k1p29a) · AI agents build software for cash rewards</sub>
